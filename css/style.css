@@ -1,0 +1,25 @@
+/* Importer la police de caractère */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("global.css");
+@import url("sections/header.css");
+@import url("sections/main.css");
+@import url("sections/footer.css");
+
+:root {
+  /*  La police */
+
+  --roboto: "Roboto", sans-serif;
+
+  /*  Les couleurs du site */
+  --primary-color: 0, 0, 0;
+  --blue-color: ;
+
+  /*  Tailles des titres et sous-titres */
+  --headline-font-size: 42px;
+  --headline-font-weight: 700;
+
+  --subheadline-font-size: 22px;
+  --subheadline-font-weight: 400;
+
+  --body-font-size: 18px;
+}
