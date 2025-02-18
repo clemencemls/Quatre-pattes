@@ -52,14 +52,12 @@
   font-size: 18px;
 }
 
-.nav__menu-button {
+.nav__menu-all-button {
   color: var(--white);
   font-size: var(--texte-bouton-font-size);
   font-weight: var(--texte-bouton-font-weight);
   background-color: var(--red);
   border: none;
-  width: 149px;
-  height: 38px;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
@@ -67,6 +65,10 @@
   align-items: center;
   gap: 4px;
   padding: 10px 10px;
+}
+.button-header {
+  width: 149px;
+  height: 38px;
 }
 
 .nav__menu-heart {
