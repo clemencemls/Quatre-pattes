@@ -51,6 +51,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .container__bloc {
@@ -106,7 +107,39 @@
 /* Section NOTRE MISSION */
 
 .main__mission {
-  width: 100%;
-  height: 550px;
   background-color: var(--light-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
 }
+
+.main__mission-container {
+  width: 80vw;
+  height: 45vh;
+  display: flex;
+}
+
+.container-bloc {
+  width: 50%;
+}
+
+.container-bloc2 {
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 50px 40px;
+  width: 50%;
+}
+
+.bloc2-titre {
+  font-size: var(--titre-font-size);
+  font-weight: var(--titre-font-weight);
+}
+
+.bloc2-txt {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* Section HISTOIRE DE REUSSITE */
