@@ -1,13 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: var(--roboto);
-}
-html,
-body {
-  height: 100%;
+/* Importer la police de caractère */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("style.css");
+@import url("header.css");
+@import url("main.css");
 
-  /* Pour espacer mes sections */
-  /* display: flex */
-  /* flex direction :colomn */
+:root {
+  /*  La police */
+
+  --inter: "Inter", sans-serif;
+
+  /*  Les couleurs du site */
+  --dark-green: rgb(5, 120, 88);
+  --light-green: rgb(231, 253, 241);
+  --red: rgb(219, 39, 39);
+  --grey: rgb(92, 90, 90);
+  --light-grey: rgb(243, 244, 246);
+  --calque: rgb(0, 0, 0, 0.3);
+  --white: rgb(255, 255, 255);
+
+  /*  Tailles des titres et sous-titres */
+  --titre-font-size: 30px;
+  --titre-font-weight: 800;
+
+  --texte-paragraphe-font-size: 15px;
+  --texte-paragraphe-font-weight: 500;
+
+  --texte-bouton-font-size: 18px;
+  --texte-bouton-font-weight: 500;
 }
+
+/*  200 : Extra Light, 300 : Light, 400 : Regular (ou Normal), 500 : Medium, 600 : Semi-Bold,
+ 700 : Bold, 800 : Extra Bold
+ */
