@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .header__nav {
   width: 1294px;
   height: 49px;
@@ -15,6 +16,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .nav__logo {
   display: flex;
   gap: 7px;
@@ -46,6 +48,7 @@
   align-items: center;
   gap: 40px;
 }
+
 .nav__menu-li {
   text-decoration: none;
   color: var(--white);

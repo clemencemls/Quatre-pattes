@@ -1,14 +1,20 @@
+#marge {
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+
 /* Section HERO */
 
 .hero__section {
-  height: 467px;
-  width: 1440px;
+  width: 100vw;
+  height: 55vh;
 }
-
 .hero__img {
   width: 100%;
   height: 100%;
+  background-image: url(../Images/photoprincipale.jpg);
   object-fit: cover;
+  background-position: center;
   position: relative;
 }
 
@@ -143,3 +149,152 @@
 }
 
 /* Section HISTOIRE DE REUSSITE */
+
+.main__histoire {
+  /* section */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.histoire__container {
+  width: 70vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.histoire__container_bloc1 {
+  width: 100%;
+  height: 50vh;
+  background-image: url("../Images/chien-noir.jpg");
+  background-position: center; /* pour centrer l'image */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+}
+
+.histoire__container_bloc2 {
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.histoire__container_bloc2-img {
+  width: 30%;
+  height: 100%;
+  background-size: cover; /* pour ajuster l'image à la taille de l'élément */
+  background-position: center;
+  border-radius: 5px;
+  color: white;
+}
+
+.histoire-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.histoire__container_bloc-txt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+.histoire-img1 {
+  background-image: url("../Images/chien-noir.jpg");
+  position: relative;
+}
+
+.histoire-img2 {
+  background-image: url("../Images/chat-papillon.jpg");
+  position: relative;
+}
+
+.histoire-img3 {
+  background-image: url("../Images/Bulldog.jpg");
+  position: relative;
+}
+
+.histoire__container_bloc-txt {
+  color: white;
+}
+
+.histoire-luna-txt {
+  font-size: 24px;
+}
+
+.luna-txt {
+  font-size: 15px;
+}
+
+.luna-txt2 {
+  font-weight: 100;
+}
+
+/* Section TESTEZ VOS CONNAISSANCES */
+
+.main__quizz {
+  /* section */
+  background-color: var(--light-green);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.main__quizz__conteneur {
+  /* le grand conteneur */
+  width: 55vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.main__quizz__conteneur__bloc {
+  /* les trois grand blocs */
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quizz__conteneur__bloc-3 {
+  /* le bloc contenant les deux blocs */
+  width: 90%;
+  height: 44%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.quizz__conteneur__bloc-txt {
+  /* les deux blocs à l'interieur */
+  background-color: var(--light-grey);
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.bloc-txt-quizz {
+  /* texte à l'interieur des blocs gris */
+  font-size: 13px;
+}

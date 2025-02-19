@@ -3,6 +3,7 @@
 @import url("style.css");
 @import url("header.css");
 @import url("main.css");
+@import url("footer.css");
 
 :root {
   /*  La police */
@@ -17,6 +18,7 @@
   --light-grey: rgb(243, 244, 246);
   --calque: rgb(0, 0, 0, 0.3);
   --white: rgb(255, 255, 255);
+  --dark-blue: rgb(31, 41, 55);
 
   /*  Tailles des titres et sous-titres */
   --titre-font-size: 30px;
