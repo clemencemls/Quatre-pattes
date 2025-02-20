@@ -298,3 +298,69 @@
   /* texte à l'interieur des blocs gris */
   font-size: 13px;
 }
+
+/* PAGE FORMULAIRE */
+
+.main__formulaire {
+  /* section */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+.main__formulaire__bloc {
+  /* bordure element */
+  width: 70vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: var(--light-grey) solid;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.formulaire__bloc-txt {
+  font-size: var(--texte-paragraphe-font-size);
+  color: var(--grey);
+}
+
+.formulaire {
+  width: 60vw;
+  height: 59vh;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+input,
+select {
+  width: 100%;
+  height: 3vh;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  height: 40%;
+}
+
+#bouton-formulaire {
+  width: 100%;
+  height: 10%;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--dark-green);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
