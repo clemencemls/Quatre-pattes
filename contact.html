@@ -33,20 +33,17 @@
         <h1 class="don__titre">Contactez-nous</h1>
         <div class="main__formulaire__bloc">
           <div class="formulaire">
-            <form action="traitement.php" method="POST">
+            <form id="form">
               <label class="formulaire__bloc-txt" for="name">Nom</label><br />
-              <input type="text" id="name" name="name" required /><br /><br />
+              <input type="text" id="name" name="name" /><br /><br />
+              <div id="error_username" class="error"></div>
               <label class="formulaire__bloc-txt" for="email">Email</label
               ><br />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-              /><br /><br />
+              <input id="email" type="text" /><br /><br />
+              <div id="error_email" class="error"></div>
               <label class="formulaire__bloc-txt" for="langue">Sujet</label
               ><br />
-              <select id="langue" name="langue" required>
+              <select id="langue" name="langue">
                 <option value="don">Faire un don</option>
                 <option value="benevole">Devenir bénévole</option>
                 <option value="general">Questions générales</option>
@@ -54,15 +51,10 @@
               <br /><br />
               <label class="formulaire__bloc-txt" for="message">Message</label
               ><br />
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                required
-              ></textarea>
+              <textarea id="message" name="message" rows="4"></textarea>
               <br />
               <br />
-
+              <div id="error_message" class="error"></div>
               <button id="bouton-formulaire" type="submit">Envoyer</button>
             </form>
           </div>

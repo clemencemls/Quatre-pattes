@@ -44,7 +44,7 @@
           </div>
         </div>
       </section>
-      <section class="main__don" id="marge">
+      <section class="main__don" id="don">
         <h1 class="don__titre">Faites un don</h1>
         <div class="don__container">
           <div class="container__bloc">
@@ -116,8 +116,8 @@
       <section class="main__histoire" id="marge">
         <h1 class="don__titre">Histoire de Réussites</h1>
         <div class="histoire__container">
-          <div class="histoire__container_bloc1">
-            <p class="histoire__container_bloc-txt">
+          <div id="photo" class="histoire__container_bloc1">
+            <p id="texte" class="histoire__container_bloc-txt">
               <span class="histoire-luna-txt">Luna</span> <br />
               <br />
               <span class="luna-txt"
@@ -131,20 +131,32 @@
             </p>
           </div>
           <div class="histoire__container_bloc2">
-            <div class="histoire__container_bloc2-img histoire-img1">
+            <div
+              id="luna"
+              class="histoire__container_bloc2-img histoire-img1"
+              onclick="changePicture1()"
+            >
               <p class="histoire-img">Luna</p>
             </div>
-            <div class="histoire__container_bloc2-img histoire-img2">
+            <div
+              id="oscar"
+              class="histoire__container_bloc2-img histoire-img2"
+              onclick="changePicture2()"
+            >
               <p class="histoire-img">Oscar</p>
             </div>
-            <div class="histoire__container_bloc2-img histoire-img3">
+            <div
+              id="max"
+              class="histoire__container_bloc2-img histoire-img3"
+              onclick="changePicture3()"
+            >
               <p class="histoire-img">Max</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="main__quizz" id="marge">
+      <section class="main__quizz">
         <br />
         <h1 class="don__titre">Testez vos Connaissances</h1>
         <div class="main__quizz__conteneur">
@@ -195,6 +207,86 @@
         <br />
         <br />
       </section>
+
+      <section class="main__impact">
+        <div class="main__impact__conteneur">
+          <h1 class="don__titre">Notre impact</h1>
+          <div class="main__impact__conteneur_bloc">
+            <div class="impact__conteneur_bloc3">
+              <img src="Images/Refuge-logo.png" alt="" class="impact__img" />
+              <p class="impact__titre">50+ Refuges</p>
+              <p class="impact__p">Partenaire à travers la France</p>
+            </div>
+            <div class="impact__conteneur_bloc3">
+              <img src="Images/paw-logo.png" alt="" class="impact__img" />
+              <p class="impact__titre">1000+ Animaux</p>
+              <p class="impact__p">Sauvés chaque année</p>
+            </div>
+            <div class="impact__conteneur_bloc3">
+              <img src="Images/Repas-logo.png" alt="" class="impact__img" />
+              <p class="impact__titre">10 000+ Repas</p>
+              <p class="impact__p">Distribué par mois</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__temoignages__section">
+        <h1 class="don__titre">Témoignages</h1>
+        <div class="main__temoignages">
+          <div class="main__temoignages__bloc">
+            <img
+              class="temoignages__bloc__img"
+              src="Images/chien-chat.jpg"
+              alt=""
+            />
+            <br />
+            <div class="padding">
+              <p class="temoignages__bloc__p">
+                “Grâce aux dons, nous avons pu accueillir plus de 200 animaux
+                cette année et leur offrir une seconde chance.”
+              </p>
+              <br />
+              <p class="temoignages__bloc__p2">
+                Refuge des Quatres Pattes - Lyon
+              </p>
+            </div>
+          </div>
+
+          <div class="main__temoignages__bloc">
+            <img
+              class="temoignages__bloc__img"
+              src="Images/chatFondVert.jpg"
+              alt=""
+            />
+            <br />
+            <div class="padding">
+              <p class="temoignages__bloc__p">
+                “Le soutien de Quatres Pattes nous permet de maintenir notre
+                mission de protection des animaux sauvages en détresse.”
+              </p>
+              <br />
+              <p class="temoignages__bloc__p2">Sanctuaire animal - Marseille</p>
+            </div>
+          </div>
+          <div class="main__temoignages__bloc">
+            <img
+              class="temoignages__bloc__img"
+              src="Images/main-patte.jpg"
+              alt=""
+            />
+            <br />
+            <div class="padding">
+              <p class="temoignages__bloc__p">
+                “Chaque don compte et nous aide à offrir un avenir meilleur aux
+                animaux abandonnés”
+              </p>
+              <br />
+              <br />
+              <p class="temoignages__bloc__p2">Refuge du Soleil - Paris</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="main__footer">
       <div class="footer__nav">
@@ -219,5 +311,6 @@
         </div>
       </div>
     </footer>
+    <script src="javascript/accueil.js"></script>
   </body>
 </html>

@@ -10,11 +10,13 @@
 }
 
 .header__nav {
-  width: 1294px;
+  width: 100%;
+  max-width: 1294px;
   height: 49px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 10px; /* padding à droite et gauche  */
 }
 
 .nav__logo {
@@ -25,6 +27,7 @@
 .nav__logo-img {
   height: auto; /* pour garder proportions de l'image */
   width: 30px;
+  align-items: center;
 }
 
 .nav__logo-txt {
@@ -33,7 +36,8 @@
   font-weight: 500;
 }
 .nav__menu {
-  width: 365px;
+  width: 100%;
+  max-width: 365px;
   height: 38px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +71,7 @@
   justify-content: center;
   align-items: center;
   gap: 4px;
-  padding: 10px 10px;
+  padding: 10px 15px;
 }
 .button-header {
   width: 149px;
