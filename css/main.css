@@ -11,11 +11,12 @@
 /* Section HERO */
 
 .hero__section {
-  width: 100vw;
+  /* width: 100vw; */
+  width: 100%;
   height: 55vh;
 }
 .hero__img {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   background-image: url(../Images/photoprincipale.jpg);
   object-fit: cover;
@@ -56,7 +57,8 @@
 
 .don__container {
   height: 347px;
-  width: 924px;
+  width: 100%;
+  max-width: 924px;
   border: solid var(--light-grey) 2px;
   display: flex;
   flex-direction: column;
@@ -114,7 +116,13 @@
   display: flex;
   justify-content: center;
 }
-
+@media screen and (max-width: 574px) {
+  .container__bloc {
+    flex-direction: column;
+  }
+  ..don__container {
+  }
+}
 /* Section NOTRE MISSION */
 
 .main__mission {

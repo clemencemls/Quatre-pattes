@@ -86,3 +86,28 @@
 .nav__menu-lien {
   text-decoration: none;
 }
+
+@media screen and (max-width: 574px) {
+  .header__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .nav__menu-liste {
+    align-items: flex-start;
+  }
+  .header {
+    height: 190px;
+  }
+  .button-header {
+    width: 300px;
+  }
+}
