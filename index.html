@@ -48,19 +48,19 @@
         <h1 class="don__titre">Faites un don</h1>
         <div class="don__container">
           <div class="container__bloc">
-            <button class="bloc__bouton">
+            <button id="btn1" class="bloc__bouton" onclick="choose1()">
               <p class="bloc__p">10€</p>
               <p class="bloc__p2">
                 permet de nourrir 5 animaux pendant une journée
               </p>
             </button>
-            <button class="bloc__bouton">
+            <button id="btn2" class="bloc__bouton" onclick="choose2()">
               <p class="bloc__p">20€</p>
               <p class="bloc__p2">
                 permet d'heberger un animal sauvage pendant une nuit
               </p>
             </button>
-            <button class="bloc__bouton">
+            <button id="btn3" class="bloc__bouton" onclick="choose3()">
               <p class="bloc__p">50€</p>
               <p class="bloc__p2">
                 permet de financer les soins vétérinaires complets pour un
@@ -70,9 +70,15 @@
           </div>
 
           <div class="container__bloc2">
-            <button class="bloc2_bouton">Une fois</button>
-            <button class="bloc2_bouton">Mensuel</button>
-            <button class="bloc2_bouton">Annuel</button>
+            <button id="btn4" onclick="choose4()" class="bloc2_bouton">
+              Une fois
+            </button>
+            <button id="btn5" onclick="choose5()" class="bloc2_bouton">
+              Mensuel
+            </button>
+            <button id="btn6" onclick="choose6()" class="bloc2_bouton">
+              Annuel
+            </button>
           </div>
           <div class="container-bouton">
             <button class="nav__menu-all-button button-don">

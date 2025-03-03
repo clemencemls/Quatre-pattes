@@ -1,6 +1,6 @@
 #marge {
   margin-top: 2vh;
-  margin-bottom: 3vh;
+  margin-bottom: 6vh;
 }
 
 /* .main {
@@ -80,6 +80,21 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.styl {
+  border: solid var(--dark-green);
+  background-color: var(--light-green);
+}
+.stylebutton1 {
+  border: solid var(--dark-green);
+  background-color: var(--light-green);
+}
+
+.stylebutton2 {
+  border: solid var(--dark-green);
+  background-color: var(--light-green);
+}
+
 .bloc__p {
   font-size: 26px;
   font-weight: 700;
@@ -116,11 +131,10 @@
   display: flex;
   justify-content: center;
 }
+
 @media screen and (max-width: 574px) {
   .container__bloc {
     flex-direction: column;
-  }
-  ..don__container {
   }
 }
 /* Section NOTRE MISSION */
@@ -396,7 +410,7 @@ textarea {
   align-items: center;
   gap: 4vw;
   padding: 0px 10px; /* padding à droite et gauche  */
-  margin-bottom: 3vw;
+  padding-bottom: 3vw;
 }
 
 .main__impact__conteneur_bloc {
@@ -438,7 +452,8 @@ textarea {
   justify-content: center;
   align-items: center;
   gap: 4vw;
-  margin-bottom: 2vw;
+  margin-bottom: 5vw;
+  margin-top: 3vw;
 }
 
 .main__temoignages {
